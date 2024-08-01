@@ -18,7 +18,10 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <Link  className="navbar-brand nav_ac" to="/">
-           <img src="https://i.hizliresim.com/s4oqghk.png"> {logotext}
+           <div
+            className="h_logo-image order-1 order-lg-2 h-100 "
+            style={{ logoImage: `url(${introdata.yourlogo_url})` }}
+          ></div {logotext}
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
