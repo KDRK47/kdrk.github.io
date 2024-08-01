@@ -36,7 +36,7 @@ export const Socialicons = (params) => {
           </li>
         )}
       </ul>
-      <p>Sosyal Medya</p>
+      <p>Takip Edin</p>
     </div>
   );
 };
