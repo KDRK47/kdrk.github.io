@@ -1,8 +1,8 @@
 .stick_follow_icon {
     top: 50%;
     left: 30px;
-    width: 30px;
-    height: 100px;
+    width: 20px;
+    height: 200px;
     position: fixed;
     margin-top: -100px;
 }
@@ -22,8 +22,8 @@
 .stick_follow_icon p {
     top: 70px;
     left: -24px;
-    width: 78px;
-    height: 30px;
+    width: 68px;
+    height: 20px;
     color: var(--text-color);
     font-size: 12px;
     font-weight: 600;
@@ -43,7 +43,7 @@
 
 .stick_follow_icon p:after {
     top: 9px;
-    right: -58px;
+    right: -48px;
     width: 40px;
     height: 1px;
     content: "";
@@ -72,15 +72,15 @@
         white-space: nowrap;
         position: relative;
         transform: unset;
-        font-size: 20px;
-        margin-right: 80px;
-
+        font-size: 17px;
+        margin-right: 65px;
+    }
     .stick_follow_icon ul {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .stick_follow_icon ul li {
         display: inline;
         margin-bottom: 29px;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 }
