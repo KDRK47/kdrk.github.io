@@ -35,7 +35,7 @@ const contactConfig = {
     YOUR_EMAIL: "info@kadirdurak.com",
     YOUR_FONE: "",
     description: "",
-    YOUR_SERVICE_ID: "service_aevryxn",
+    YOUR_SERVICE_ID: "service_pjyz30t",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
