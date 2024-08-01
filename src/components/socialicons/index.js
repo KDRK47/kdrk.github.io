@@ -32,8 +32,8 @@ export const Socialicons = (params) => {
           <li>
             <a href={socialprofils.linkedin}>
               <FaLinkedin />
-          <br>
             </a>
+          <br>
           </li>
         )}
       </ul>
