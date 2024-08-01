@@ -37,7 +37,7 @@ const contactConfig = {
     description: "",
     YOUR_SERVICE_ID: "service_pjyz30t",
     YOUR_TEMPLATE_ID: "template_gptkhzt",
-    YOUR_USER_ID: "4w-jqqtY5CickjIUGnXNm",
+    YOUR_USER_ID: "6NqEcZu9jPrptq9Kj",
 };
 
 const socialprofils = {
