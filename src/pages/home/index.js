@@ -13,12 +13,6 @@ export const Home = () => {
           <meta charSet="utf-8" />
           <title>{meta.title} - IT Manager</title>
         </Helmet>
-
-  <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div
-            className="h_logo-image order-1 order-lg-2 h-100 "
-            style={{ logoimage_url: `url(${introdata.logoimage_url})` }}
-          ></div>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
@@ -27,7 +21,7 @@ export const Home = () => {
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
-                <h2 className="mb-1x">{introdata.title}</h2>
+                <h2 className="mb-1x">style={{ logoimage_url: `url(${introdata.logoimage_url})` }} <br> {introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x">
                 IT Manager
                 </h1>
