@@ -21,7 +21,7 @@
 
 .stick_follow_icon p {
     top: 70px;
-    left: -35px;
+    left: -5px;
     width: 68px;
     height: 20px;
     color: var(--text-color);
@@ -73,7 +73,7 @@
         position: relative;
         transform: unset;
         font-size: 25px;
-        margin-right: 85px;
+        margin-right: 25px;
     }
     .stick_follow_icon ul {
         margin-bottom: 20px;
