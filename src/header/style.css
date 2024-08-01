@@ -6,6 +6,7 @@
 
 .menu__button {
     color: var(--text-color);
+	
 }
 
 .menu__button:focus,
