@@ -13,6 +13,7 @@ const introdata = {
     },
     description: "",
     your_img_url: "https://i.hizliresim.com/79d3xa8.jpeg",
+    logoimage_url: "https://i.hizliresim.com/s4oqghk.png",
 };
 
 const dataabout = {
