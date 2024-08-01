@@ -13,6 +13,12 @@ export const Home = () => {
           <meta charSet="utf-8" />
           <title>{meta.title} - IT Manager</title>
         </Helmet>
+
+  <div className="intro_sec d-block d-lg-flex align-items-center ">
+          <div
+            className="h_logo-image order-1 order-lg-2 h-100 "
+            style={{ logoimage_url: `url(${introdata.logoimage_url})` }}
+          ></div>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
