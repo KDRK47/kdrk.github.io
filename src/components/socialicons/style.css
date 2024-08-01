@@ -27,7 +27,7 @@
     color: var(--text-color);
     font-size: 12px;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 0.7;
     white-space: nowrap;
     position: relative;
     transform: rotate( -90deg);
