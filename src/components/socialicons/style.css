@@ -14,8 +14,8 @@
 }
 
 .stick_follow_icon svg {
-    width: 2.3em;
-    height: 2.3em;
+    width: 2.5em;
+    height: 2.5em;
     fill: var(--text-color)
 }
 
@@ -44,8 +44,8 @@
 .stick_follow_icon p:after {
     top: 9px;
     right: -48px;
-    width: 40px;
-    height: 1px;
+    width: 50px;
+    height: 2px;
     content: "";
     display: block;
     position: absolute;
@@ -72,8 +72,8 @@
         white-space: nowrap;
         position: relative;
         transform: unset;
-        font-size: 17px;
-        margin-right: 65px;
+        font-size: 25px;
+        margin-right: 85px;
     }
     .stick_follow_icon ul {
         margin-bottom: 20px;
@@ -81,6 +81,6 @@
     .stick_follow_icon ul li {
         display: inline;
         margin-bottom: 29px;
-        margin-right: 10px;
+        margin-right: 30px;
     }
 }
