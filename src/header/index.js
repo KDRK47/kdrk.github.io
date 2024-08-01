@@ -20,8 +20,7 @@ const Headermain = () => {
           <Link  className="navbar-brand nav_ac" to="/">
            <div
             className="h_logo-image order-1 order-lg-2 h-100 "
-            style={{ logoImage: `url(${introdata.logoimage_url})` }}
-          ></div {logotext}
+            style={{ logoImage: `url(${introdata.logoimage_url})` }}> {logotext} </div> 
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
