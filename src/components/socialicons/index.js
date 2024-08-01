@@ -33,11 +33,10 @@ export const Socialicons = (params) => {
             <a href={socialprofils.linkedin}>
               <FaLinkedin />
             </a>
-          <br />
           </li>
         )}
       </ul>
-      <p><br />Takip Edin</p>
+      <p>Sosyal Medya</p>
     </div>
   );
 };
