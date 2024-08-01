@@ -20,17 +20,18 @@
 }
 
 .stick_follow_icon p {
-    top: 85px;
-    left: -24px;
-    width: 68px;
-    height: 20px;
-    color: var(--text-color);
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.2;
-    white-space: nowrap;
-    position: relative;
-    transform: rotate( -90deg);
+	color: var(--text-color);
+	font-size: 14px;
+	font-weight: 600;
+	height: 36px;
+	left: -24px;
+	line-height: 1.2;
+	position: relative;
+	top: 85px;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	white-space: nowrap;
+	width: 97px;
 }
 
 .stick_follow_icon ul li {
