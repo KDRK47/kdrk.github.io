@@ -42,9 +42,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    facebook: "https://facebook.com/kdrk47",
+    mail: "mailto:info@kadirdurak.com",
     linkedin: "https://linkedin.com/in/kdrk47",
-    twitter: "https://twitter.com/kdrk47",
+    instagram: "https://twitter.com/kdrk47",
 };
 export {
     meta,
