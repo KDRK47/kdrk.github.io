@@ -11,8 +11,7 @@ const introdata = {
         second: "IT Manager",
         third: "IT Manager",
     },
-    description: `23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri uzmanıyım.
-    \n Şirketin BT altyapısını daha verimli ve güvenli hale getirmeyi hedefliyorum.`,
+    description: `23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri uzmanıyım.`,
     your_img_url: "https://i.hizliresim.com/79d3xa8.jpeg",
     logoimage_url: "https://i.hizliresim.com/s4oqghk.png",
 };
