@@ -33,7 +33,7 @@ img {
     background: var(--primary-color);
     font-size: 1.25rem;
     font-family: Marcellus;
-    color: var(--text-color-2);
+    color: #ffb50;
     line-height: 2;
     height: 50px;
     font-weight: bold;
@@ -41,7 +41,7 @@ img {
 }
 
 .nav_ac:hover {
-    color: "#ffb507";
+    color: #ffb50;
 }
 
 .br-top,
