@@ -64,7 +64,7 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
     <Link  className="navbar-brand nav_ac" to="/">
-               <img src="{ logoimage_url }" /> { logotext }
+               <img src="https://kadirdurak.com/assets/images/kdrklogo.png" /> { logotext }
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
