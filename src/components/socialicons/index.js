@@ -10,6 +10,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
+import { SiInstagram } from "react-icons/si";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
@@ -26,7 +27,7 @@ export const Socialicons = (params) => {
         {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
-              <FaInstagramSquare />
+              <SiInstagram />
             </a>
           </li>
         )}
