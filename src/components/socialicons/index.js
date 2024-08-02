@@ -17,7 +17,7 @@ export const Socialicons = (params) => {
         {socialprofils.facebook && (
           <li>
             <a href={socialprofils.facebook}>
-              <FaMailbox />
+              <FaEnvelope />
             </a>
           </li>
         )}
