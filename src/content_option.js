@@ -29,7 +29,11 @@ const skills = [
 const services = [
 ];
 
-const dataportfolio = [
+const dataportfolio = [{
+    img: "https://i.hizliresim.com/79d3xa8.jpeg",
+    description: "Manzaraya karşı güzel bir fotoğraf :)",
+    link: "#",
+}
 ];
 
 const contactConfig = {
