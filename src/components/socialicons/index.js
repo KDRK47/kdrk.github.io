@@ -9,7 +9,7 @@ import {
   FaInstagramSquare,
   FaEnvelope,
 } from "react-icons/fa";
-import { CiMail } from "react-icons/io5";
+import { CiMail } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { socialprofils } from "../../content_option";
