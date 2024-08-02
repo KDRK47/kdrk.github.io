@@ -1,4 +1,4 @@
-const logotext = "kadirdurak.com";
+öconst logotext = "kadirdurak.com";
 const meta = {
     title: "Kadir Durak",
     description: "IT Manager on Evdiz General Center",
@@ -11,7 +11,7 @@ const introdata = {
         second: "IT Manager",
         third: "IT Manager",
     },
-    description: `23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri uzmanıyım.`,
+    description: `Sektörde 23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri yöneticisiyim.`,
     your_img_url: "https://i.hizliresim.com/79d3xa8.jpeg",
     logoimage_url: "https://i.hizliresim.com/s4oqghk.png",
 };
