@@ -12,8 +12,8 @@ const introdata = {
         third: "IT Manager",
     },
     description: `Sektörde 23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri \nyöneticisiyim.`,
-    your_img_url: "https://kadirdurak.com/assets/images/kdrkphoto.jpeg",
-    logoimage_url: "https://kadirdurak.com/assets/images/kdrklogo.png",
+    your_img_url: "https://raw.githubusercontent.com/KDRK47/kdrk47.github.io/master/src/assets/images/kdrkphoto.jpeg",
+    logoimage_url: "https://raw.githubusercontent.com/KDRK47/kdrk47.github.io/master/src/assets/images/kdrklogo.png",
 };
 
 const dataabout = {
