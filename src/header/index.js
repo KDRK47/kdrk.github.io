@@ -57,9 +57,7 @@ const Headermain = () => {
 		           return false;
 		     }
 		}
-		document.addEventListener('contextmenu', event => event.preventDefault() 
-			alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
-	);
+		document.addEventListener('contextmenu', event => event.preventDefault());
 	
   return (
     <>
