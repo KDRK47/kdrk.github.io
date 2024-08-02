@@ -44,7 +44,7 @@ const contactConfig = {
 const socialprofils = {
     facebook: "mailto:info@kadirdurak.com",
     linkedin: "https://linkedin.com/in/kdrk47",
-    twitter: "https://twitter.com/kdrk47",
+    twitter: "https://instagram.com/kdr.durak",
 };
 export {
     meta,
