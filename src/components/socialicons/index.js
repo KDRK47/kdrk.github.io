@@ -20,21 +20,21 @@ export const Socialicons = (params) => {
       <ul>
         {socialprofils.facebook && (
           <li>
-            <a href={socialprofils.facebook}>
+            <a href={socialprofils.facebook} target="_blank" rel="noopener noreferrer">
               <CiMail />
             </a>
           </li>
         )}
         {socialprofils.twitter && (
           <li>
-            <a href={socialprofils.twitter}>
+            <a href={socialprofils.twitter} target="_blank" rel="noopener noreferrer">
               <CiInstagram />
             </a>
           </li>
         )}
         {socialprofils.linkedin && (
           <li>
-            <a href={socialprofils.linkedin}>
+            <a href={socialprofils.linkedin} target="_blank" rel="noopener noreferrer">
               <CiLinkedin />
             </a>
           </li>
