@@ -9,9 +9,9 @@ import {
   FaInstagramSquare,
   FaEnvelope,
 } from "react-icons/fa";
-import { IoMailOutline } from "react-icons/io5";
-import { SiInstagram } from "react-icons/si";
-import { TbBrandLinkedin } from "react-icons/tb";
+import { CiMail } from "react-icons/io5";
+import { CiInstagram } from "react-icons/ci";
+import { CiLinkedin } from "react-icons/ci";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
@@ -21,21 +21,21 @@ export const Socialicons = (params) => {
         {socialprofils.facebook && (
           <li>
             <a href={socialprofils.facebook}>
-              <IoMailOutline />
+              <CiMail />
             </a>
           </li>
         )}
         {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
-              <SiInstagram />
+              <CiInstagram />
             </a>
           </li>
         )}
         {socialprofils.linkedin && (
           <li>
             <a href={socialprofils.linkedin}>
-              <TbBrandLinkedin />
+              <CiLinkedin />
             </a>
           </li>
         )}
