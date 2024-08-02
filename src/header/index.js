@@ -13,32 +13,43 @@ const Headermain = () => {
     document.body.classList.toggle("ovhidden");
   };
 
-document.addEventListener('contextmenu', function(e) {
-  e.preventDefault();
-});
-document.onkeydown = function(ea) {
-        if (ea.ctrlKey && 
-            (ea.keyCode === 67 || 
-             ea.keyCode === 86 || 
-             ea.keyCode === 85 || 
-             ea.keyCode === 117)) {
-				 alert('Bu websitesi ve içeriği korunmaktadır.\nBu yüzden kaynak kodunu görüntüleyemezsiniz.');
-            return false;
-        } else {
-            return true;
-        }
-};
-	$(document).keypress("u",function(ea) {
-	if(ea.ctrlKey)
-	{
-	return false;
-	}
-	else
-	{
-	return true;
-	}
-});
+// To disable right click
+document.addEventListener('contextmenu', event => event.preventDefault());
 
+// To disable F12 options
+document.onkeypress = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+document.onmousedown = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+document.onkeydown = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+
+// To To Disable ctrl+c, ctrl+u
+
+jQuery(document).ready(function($){
+$(document).keydown(function(event) {
+var pressedKey = String.fromCharCode(event.keyCode).toLowerCase();
+
+if (event.ctrlKey && (pressedKey == "c" || pressedKey == "u")) {
+alert('Bu websitesi ve içeriği korunmaktadır.\nBu yüzden yapmaya çalıştığınız işlem deaktif edilmiştir.');
+//disable key press porcessing
+return false;
+}
+});
+});
+	
   return (
     <>
       <header className="fixed-top site__header">
