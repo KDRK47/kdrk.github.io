@@ -37,11 +37,29 @@ const Headermain = () => {
                 alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
             }
         });
-	$(document).bind("contextmenu",function(e) {  
-    	e.preventDefault(); 
-	alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");	
-    }); 
-	
+	document.addEventListener('keydown', function (event) {
+            if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+                event.preventDefault();
+                alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
+            }
+        });
+	document.addEventListener('keydown', function (event) {
+            if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+                event.preventDefault();
+                alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
+            }
+        });
+	document.onkeydown = function (event) {
+		     event = (event || window.event);
+		     if (event.keyCode == 123 || event.keyCode == 18)
+                   alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.")
+		     {
+		           return false;
+		     }
+		}
+		document.addEventListener('contextmenu', event => event.preventDefault() 
+			alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.")
+	);
 	
   return (
     <>
