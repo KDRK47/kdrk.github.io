@@ -12,7 +12,7 @@ const introdata = {
         third: "IT Manager",
     },
     description: `Sektörde 23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri \nyöneticisiyim.`,
-    your_img_url: "https://i.hizliresim.com/79d3xa8.jpeg",
+    your_img_url: "./assets/images/kdrkphoto.jpeg",
     logoimage_url: "https://i.hizliresim.com/s4oqghk.png",
 };
 
