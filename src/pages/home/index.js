@@ -27,7 +27,7 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
+                  <Link to="/galeri" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       Galeri
                       <div className="ring one"></div>
@@ -35,7 +35,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/contact">
+                  <Link to="/iletisim">
                     <div id="button_h" className="ac_btn btn">
                       İletişim
                       <div className="ring one"></div>
