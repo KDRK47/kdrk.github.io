@@ -1,4 +1,4 @@
-const logotext = "Kadir Durak";
+const logotext = "kadirdurak.com";
 const meta = {
     title: "Kadir Durak",
     description: "IT Manager on Evdiz General Center",
