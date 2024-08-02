@@ -14,16 +14,16 @@ export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialprofils.mail && (
+        {socialprofils.facebook && (
           <li>
-            <a href={socialprofils.mail}>
+            <a href={socialprofils.facebook}>
               <FaMailbox />
             </a>
           </li>
         )}
-        {socialprofils.instagram && (
+        {socialprofils.twitter && (
           <li>
-            <a href={socialprofils.instagram}>
+            <a href={socialprofils.twitter}>
               <FaInstagram />
             </a>
           </li>
