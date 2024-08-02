@@ -99,7 +99,7 @@ const Headermain = () => {
             <a href={socialprofils.twitter}>Instagram</a>
             <a href={socialprofils.linkedin}>Linkedin</a>
             </div>
-            <p className="copyright m-0">Copyright 2024 {logotext} - Tüm hakları saklıdır.</p>
+            <p className="copyright m-0">© Copyright 2024 {logotext} - Tüm hakları saklıdır.</p>
           </div>
         </div>
       </header>
