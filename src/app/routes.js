@@ -30,18 +30,6 @@ const AnimatedRoutes = withRouter(({ location }) => (
   </TransitionGroup>
 ));
 
-import {bootstrap} from 'angular2/platform/browser';
-import {provide} from 'angular2/core';
-import {ROUTER_PROVIDERS} from 'angular2/router';
-import {LocationStrategy, HashLocationStrategy} from '@angular/common';
-
-import {MyApp} from './src/pages';
-
-bootstrap(MyApp, [
-  ROUTER_PROVIDERS,
-  {provide: LocationStrategy, useClass: HashLocationStrategy}
-]);
-
 function AppRoutes() {
   return (
     <div className="s_c">
