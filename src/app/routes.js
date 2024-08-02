@@ -28,12 +28,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
     </CSSTransition>
   </TransitionGroup>
 ));
-@NgModule({
-  imports: [
-    ...
-    ...
-    RouterModule.forRoot(routes, { useHash: true })
-  ],
+
 function AppRoutes() {
   return (
     <div className="s_c">
