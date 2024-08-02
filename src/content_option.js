@@ -13,7 +13,7 @@ const introdata = {
     },
     description: `Sektörde 23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri \nyöneticisiyim.`,
     your_img_url: "./assets/images/kdrkphoto.jpeg",
-    logoimage_url: "https://i.hizliresim.com/s4oqghk.png",
+    logoimage_url: "./assets/images/kdrklogo.png",
 };
 
 const dataabout = {
