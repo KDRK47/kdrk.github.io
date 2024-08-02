@@ -16,23 +16,28 @@ const Headermain = () => {
 document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
-document.onkeydown = (e) => {
-    if (e.key == 123) {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.key == 'U') {
-        e.preventDefault();
-    }
+document.onkeydown = function(ea) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+				 alert('Bu websitesi ve içeriği korunmaktadır.\nBu yüzden kaynak kodunu görüntüleyemezsiniz.');
+            return false;
+        } else {
+            return true;
+        }
 };
+	$(document).keypress("u",function(ea) {
+	if(e.ctrlKey)
+	{
+	return false;
+	}
+	else
+	{
+	return true;
+	}
+});
 
   return (
     <>
