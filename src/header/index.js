@@ -17,11 +17,11 @@ document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
 document.onkeydown = function(ea) {
-        if (e.ctrlKey && 
-            (e.keyCode === 67 || 
-             e.keyCode === 86 || 
-             e.keyCode === 85 || 
-             e.keyCode === 117)) {
+        if (ea.ctrlKey && 
+            (ea.keyCode === 67 || 
+             ea.keyCode === 86 || 
+             ea.keyCode === 85 || 
+             ea.keyCode === 117)) {
 				 alert('Bu websitesi ve içeriği korunmaktadır.\nBu yüzden kaynak kodunu görüntüleyemezsiniz.');
             return false;
         } else {
@@ -29,7 +29,7 @@ document.onkeydown = function(ea) {
         }
 };
 	$(document).keypress("u",function(ea) {
-	if(e.ctrlKey)
+	if(ea.ctrlKey)
 	{
 	return false;
 	}
