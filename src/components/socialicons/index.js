@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { SiInstagram } from "react-icons/si";
+import { TbBrandLinkedin } from "react-icons/tb";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
@@ -34,7 +35,7 @@ export const Socialicons = (params) => {
         {socialprofils.linkedin && (
           <li>
             <a href={socialprofils.linkedin}>
-              <FaLinkedin />
+              <TbBrandLinkedin />
             </a>
           </li>
         )}
