@@ -37,6 +37,10 @@ const Headermain = () => {
                 alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
             }
         });
+	$(document).bind("contextmenu",function(e) {  
+    	e.preventDefault(); 
+	alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");	
+    }); 
 	
 	
   return (
