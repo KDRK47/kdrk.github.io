@@ -24,10 +24,6 @@ export const Portfolio = () => {
             return (
               <div key={i} className="po_item">
                 <img className="po_item galeri" src={data.img} alt="kadirdurakgaleri" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link}>Resmi Görüntüle</a>
-                </div>
               </div>
             );
           })}
