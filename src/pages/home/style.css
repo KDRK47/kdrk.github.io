@@ -6,8 +6,6 @@ section {
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
-@font-face { font-family: 00834; src: url('https://github.com/KDRK47/font/raw/main/00834.ttf'); } 
-
 .h2, h2 {
 	font-size: 2rem;
 	margin-top: 2px;
