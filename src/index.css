@@ -18,6 +18,11 @@
     --overlay-color: rgb(255 255 255 / 70%);
 }
 
+@font-face {
+  font-family: Robo;
+  src: url(Robo.tff);
+}
+
 html,
 body {
     height: 100%;
