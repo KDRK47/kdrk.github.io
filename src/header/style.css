@@ -32,7 +32,7 @@ img {
     border: unset;
     background: var(--primary-color);
     font-size: 1.25rem;
-    font-family: 00834;
+    font-family: robo;
     color: #ffb507;
     line-height: 2;
     height: 50px;
@@ -46,7 +46,7 @@ img {
     border: unset;
     background: var(--primary-color);
     font-size: 1.25rem;
-    font-family: Marcellus;
+    font-family: robo;
     color: #ffffff;
     line-height: 2;
     height: 50px;
