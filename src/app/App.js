@@ -19,7 +19,10 @@ function _ScrollToTop(props) {
 }
 const ScrollToTop = withRouter(_ScrollToTop);
 
-
+declare module "*.tff" {
+  const value: any;
+  export = value;
+}
 
 export default function App() {
   return (
