@@ -16,6 +16,10 @@ button.btn.ac_btn:hover {
     color: var(--secondary-color);
 }
 
+.h1 {
+    font-family: Marcellus;
+}
+
 .loading-bar {
     position: fixed;
     top: 0;
