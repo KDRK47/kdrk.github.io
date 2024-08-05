@@ -12,52 +12,6 @@ const Headermain = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
   };
-
-	document.addEventListener('keydown', function (event) {
-            if (event.ctrlKey && event.key === 'c') {
-                event.preventDefault();
-                alert("Site içeriğinin korunmasından dolayı kopyalama işlemi deaktif edilmiştir.");
-            }
-        });
-	document.addEventListener('keydown', function (event) {
-            if (event.ctrlKey && event.key === 'I') {
-                event.preventDefault();
-                alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
-            }
-        });
-	document.addEventListener('keydown', function (event) {
-            if (event.ctrlKey && event.key === 'u') {
-                event.preventDefault();
-                alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
-            }
-        });
-	document.addEventListener('keydown', function (event) {
-            if (event.ctrlKey && event.keyCode === 123 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117) {
-                event.preventDefault();
-                alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
-            }
-        });
-	document.addEventListener('keydown', function (event) {
-            if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
-                event.preventDefault();
-                alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
-            }
-        });
-	document.addEventListener('keydown', function (event) {
-            if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
-                event.preventDefault();
-                alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
-            }
-        });
-	document.onkeydown = function (event) {
-		     event = (event || window.event);
-		     if (event.keyCode == 123 || event.keyCode == 18)
-                   alert("Site içeriğinin korunması ve güvenliğinin sağlanması dolayısıyla bu fonksiyon deaktif edilmiştir.");
-		     {
-		           return false;
-		     }
-		}
-		document.addEventListener('contextmenu', event => event.preventDefault());
 	
   return (
     <>
