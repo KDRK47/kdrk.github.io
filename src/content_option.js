@@ -11,7 +11,7 @@ const introdata = {
         second: "IT Manager",
         third: "IT Manager",
     },
-    description: `Sektörde 23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, siber güvenlik, proje yönetimi ve bulut teknolojileri yöneticisiyim.`,
+    description: `Sektörde 23 yılı aşkın BT deneyimiyle, sistem ve ağ yönetimi, ağ güvenliği ve proje yöneticisiyim.`,
     your_img_url: "https://raw.githubusercontent.com/KDRK47/kdrk47.github.io/master/src/assets/images/kdrkphoto.jpeg",
     logoimage_url: "https://raw.githubusercontent.com/KDRK47/kdrk47.github.io/master/src/assets/images/kdrklogo.png",
 };
