@@ -7,15 +7,6 @@ section {
     transition: all .5s ease-in;
 }
 @font-face { font-family: 00834; src: url('https://github.com/KDRK47/font/raw/main/00834.ttf'); } 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family:robo;
-}
-
 
 .h2, h2 {
 	font-size: 2rem;
@@ -25,7 +16,7 @@ h6 {
 }
 
 .who_am_I {
-    font-family: Cinzel;
+    font-family: robo;
 }
 
 .has-first-color {
