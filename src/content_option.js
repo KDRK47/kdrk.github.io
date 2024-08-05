@@ -11,7 +11,7 @@ const introdata = {
         second: "IT Manager",
         third: "IT Manager",
     },
-    description: `Sektörde 25 yılı aşkın BT deneyimiyle, Şirketin teknolojiye dayalı olan tüm sistemlerinin kurulumu , ağ analizi, proje yönetimi, sistem güvenliği ve Şirketin bilgi işlem sistemlerinin güncelleştirilmesi ve geliştirilmesi için çalışmalar yapmaktayım.`,
+    description: `Sektörde 25 yılı aşkın BT deneyimiyle, Şirketin teknolojiye dayalı olan tüm sistemlerin kurulumu, ağ analizi, proje yönetimi, sistem güvenliği ve Şirketin bilgi işlem sistemlerinin güncelleştirilmesi ve geliştirilmesi için çalışmalar yapmaktayım.`,
     your_img_url: "https://raw.githubusercontent.com/KDRK47/kdrk47.github.io/master/src/assets/images/kdrkphoto.jpeg",
     logoimage_url: "https://raw.githubusercontent.com/KDRK47/kdrk47.github.io/master/src/assets/images/kdrklogo.png",
 };
