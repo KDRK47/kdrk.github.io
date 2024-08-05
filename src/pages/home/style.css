@@ -6,11 +6,12 @@ section {
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
-
+@font-face { font-family: Delicious; src: url('00834.tff'); } 
 .h2, h2 {
 	font-size: 2rem;
 	margin-top: 2px;
 	color: #ffb507;
+	font-family: 00834;
 }
 
 .who_am_I {
